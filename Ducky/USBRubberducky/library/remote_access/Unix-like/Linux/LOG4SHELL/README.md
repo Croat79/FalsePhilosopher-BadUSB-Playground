@@ -1,5 +1,7 @@
 # LOG4SHELL
 
+Original repo:https://github.com/ishan-saha/LOG4SHELL
+
 This is a simple automated Log4j exploit script written in python and using older version of java binaries.
 
 ## Usage
