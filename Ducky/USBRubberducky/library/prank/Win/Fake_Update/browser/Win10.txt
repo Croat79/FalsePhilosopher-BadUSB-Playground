@@ -5,3 +5,5 @@ GUI r
 DELAY 500
 STRING microsoft-edge:https://fakeupdate.net/win10ue/
 ENTER
+DELAY 5000
+F11

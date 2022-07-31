@@ -5,3 +5,5 @@ GUI r
 DELAY 500
 STRING iexplore -k https://fakeupdate.net/win7/
 ENTER
+DELAY 5000
+F11
