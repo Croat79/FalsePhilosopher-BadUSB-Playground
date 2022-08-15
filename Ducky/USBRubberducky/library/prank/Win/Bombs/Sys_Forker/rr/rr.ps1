@@ -31,9 +31,3 @@ $VideoPlayer.Play()
  
 #Show Up the Window 
 $Window.ShowDialog() | out-null
-
-# delete run box history
-reg delete HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU /va /f
-
-# Delete powershell history
-Remove-Item (Get-PSreadlineOption).HistorySavePath
