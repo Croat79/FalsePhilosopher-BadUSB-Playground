@@ -14,7 +14,7 @@ Add-Type -AssemblyName System.ComponentModel
 "@
  
 #Movie Path
-[uri]$VideoSource = "$env:C:Windows\System32\rr\rr.mp4"
+[uri]$VideoSource = "C:\Windows\System32\rr\rr.mp4"
  
 #Devide All Objects on XAML
 $XAMLReader=(New-Object System.Xml.XmlNodeReader $XAML)
