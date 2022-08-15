@@ -31,3 +31,5 @@ $VideoPlayer.Play()
  
 #Show Up the Window 
 $Window.ShowDialog() | out-null
+
+C:\Windows\System32\rr\fb.ps1
