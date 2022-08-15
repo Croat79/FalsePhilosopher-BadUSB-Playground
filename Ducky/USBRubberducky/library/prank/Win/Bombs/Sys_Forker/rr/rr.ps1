@@ -27,9 +27,6 @@ $VideoPlayer.Volume = 100;
 $VideoPlayer.Source = $VideoSource;
 #$VideoPlayer.Padding = new Thickness(5);
 
-
-Target-Comes
-
 $VideoPlayer.Play()
  
 #Show Up the Window 
