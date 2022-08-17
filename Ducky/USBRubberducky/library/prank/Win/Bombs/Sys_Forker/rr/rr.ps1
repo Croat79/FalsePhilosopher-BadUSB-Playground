@@ -27,8 +27,6 @@ $VideoPlayer.Volume = 100;
 $VideoPlayer.Source = $VideoSource;
 #$VideoPlayer.Padding = new Thickness(5);
 
-& C:\Windows\System32\fb.bat
-
 $VideoPlayer.Play()
  
 #Show Up the Window 
