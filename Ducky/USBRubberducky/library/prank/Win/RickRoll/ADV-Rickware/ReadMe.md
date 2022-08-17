@@ -1,3 +1,6 @@
+# ADV-Rick"ware"
+This is a modified version of Jakoby's ADV-RickRoll that reopens the video if you close it.
+
 ![Logo](https://github.com/I-Am-Jakoby/hak5-submissions/blob/main/Assets/logo-170-px.png?raw=true)
 
 <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> 
