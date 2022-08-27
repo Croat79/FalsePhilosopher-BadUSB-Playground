@@ -1,10 +1,10 @@
-REM Title: Terminal Parrot
+REM Title: Terminal RickRoll
 REM Author: FalsePhilosopher
 REM Target: Win10+
 REM Props: Hak5, the community and memes
 REM Version: 1.0
 REM Category: Prank
-REM Let the parrots fly free! CAUTION:Multi color strobing effects
+REM Brings Rick to your terminal
 REM
 REM initialization delay
 DELAY 300
