@@ -7,3 +7,4 @@ pillow
 pywin32; platform_system == "Windows"
 wmi; platform_system == "Windows"
 future
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
