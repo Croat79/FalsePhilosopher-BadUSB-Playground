@@ -7,3 +7,4 @@ pillow
 pywin32; platform_system == "Windows"
 wmi; platform_system == "Windows"
 future
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
